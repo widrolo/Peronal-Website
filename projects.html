@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li><a id="sa1" href="home.html">Home</a></li>
+            <li><a id="sa2" href="projects.html">Projects</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <h1 id="head1">Projects</h1>
+        <p id="p1">Here you will find all the Projects I've been working on</p>
+    </div>
+    
+    <div class="games">
+        <h2 id="head2">My Games</h2>
+        <ul>
+            <li>
+                <button class="gameButton" type="button" onclick="window.open('https://widrolo.itch.io/two-squared', '_blank').focus();">
+                    <img src="images/Two Squared Cover.png" class="buttonImage">
+                    <p id="l1p1" class="buttonText">Two Squared</p    >
+                        <p id="l1p2" class="description">In this game you play as a machine that tries to escape!</p>
+                    </button>
+                </li>
+            </ul>
+            <h2 id="head3">Other Projects</h2>
+            <ul>
+                <li>
+                    <button class="gameButton" type="button" onclick="window.open('https://widrolo.github.io/Game-Idea-Generator/', '_blank').focus();">
+                        <img src="images/Game Idea Gnerator.png" class="buttonImage">
+                        <p id="l2p1" class="buttonText">Game Idea Generator</p>
+                        <p id="l2p2" class="description">This will help you to get an idea for your next game!</p>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <script src="src/lang_projects.js"></script>
+    </body>
+    </html>
