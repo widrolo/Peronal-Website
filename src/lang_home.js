@@ -1,5 +1,4 @@
-//var userlang = navigator.language;
-var userlang = "pl";
+var userlang = navigator.language;
 
 if (userlang == "de" || userlang == "de-AT")
 {
