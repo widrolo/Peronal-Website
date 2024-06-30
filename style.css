@@ -99,3 +99,18 @@ a {
     font-size: 11px;
     color: #b1b1b1;
 }
+
+.buttonContainer ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.buttonContainer ul li {
+    margin: 10px; /* Adjust the spacing between items as needed */
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+}

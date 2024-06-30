@@ -22,17 +22,28 @@
     
     <div class="games">
         <h2 id="head2">My Games</h2>
-        <ul>
-            <li>
-                <button class="gameButton" type="button" onclick="window.open('https://widrolo.itch.io/two-squared', '_blank').focus();">
-                    <img src="images/Two Squared Cover.png" class="buttonImage">
-                    <p id="l1p1" class="buttonText">Two Squared</p    >
+        <div class="buttonContainer">
+            <ul class="gamesList">
+                <li>
+                    <button class="gameButton" type="button" onclick="window.open('https://widrolo.itch.io/two-squared', '_blank').focus();">
+                        <img src="images/Two Squared Cover.png" class="buttonImage">
+                        <p id="l1p1" class="buttonText">Two Squared</p>
                         <p id="l1p2" class="description">In this game you play as a machine that tries to escape!</p>
                     </button>
                 </li>
+                <li>
+                    <button class="gameButton" type="button" onclick="window.open('https://widrolo.itch.io/fire-lady', '_blank').focus();">
+                        <img src="images/Fire Lady Cover.png" class="buttonImage">
+                        <p id="l1p3" class="buttonText">Fire Lady</p>
+                        <p id="l1p4" class="description">Alice, a woman that could not be murdered now haunts the place she used to call home. Now you have stepped on her territory.</p>
+                    </button>
+                </li>
             </ul>
-            <h2 id="head3">Other Projects</h2>
-            <ul>
+        </div>
+        
+        <h2 id="head3">Other Projects</h2>
+        <div class="buttonContainer">
+            <ul class="projectsList">
                 <li>
                     <button class="gameButton" type="button" onclick="window.open('https://widrolo.github.io/Game-Idea-Generator/', '_blank').focus();">
                         <img src="images/Game Idea Gnerator.png" class="buttonImage">
@@ -40,8 +51,16 @@
                         <p id="l2p2" class="description">This will help you to get an idea for your next game!</p>
                     </button>
                 </li>
+                <li>
+                    <button class="gameButton" type="button" onclick="window.open('https://github.com/widrolo/Widrolo-Utils', '_blank').focus();">
+                        <img src="images/Widrolo Utils.png" class="buttonImage">
+                        <p id="l2p3" class="buttonText">Widrolo Utils</p>
+                        <p id="l2p4" class="description">Command line tools to make your life easier!</p>
+                    </button>
+                </li>
             </ul>
         </div>
-        <script src="src/lang_projects.js"></script>
-    </body>
-    </html>
+    </div>
+    <script src="src/lang_projects.js"></script>
+</body>
+</html>
